@@ -1,0 +1,10 @@
+name: weather_etl
+version: 1.0.0
+config-version: 2
+profile: weather
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+models:
+  weather_etl:
+    +materialized: table
