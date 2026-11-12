@@ -77,11 +77,6 @@ dbt run && dbt test
 └── .github/workflows/ci.yml
 ```
 
-## Locations tracked
-
-Milan, Rome, Naples, Turin and Pisa — the cities from my job search.
-Change them in `src/config.py`.
-
 ## Tech
 
 Python · Apache Airflow · dbt · PostgreSQL · Docker · pandas · SQL
